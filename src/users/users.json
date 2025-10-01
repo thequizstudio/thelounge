@@ -9,7 +9,7 @@
         "host": "irc.libera.chat",
         "port": 6697,
         "tls": true,
-        "channels": ["#mychatroom"]
+        "channels": ["#PubQuiz"]
       }
     ],
     "settings": {}
