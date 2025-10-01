@@ -100,7 +100,7 @@ module.exports = {
 	// Solarized would be `thelounge-theme-solarized`.
 	//
 	// This value is set to `"default"` by default.
-	theme: "default",
+	theme: "morning",
 
 	// ### `prefetch`
 	//
@@ -283,7 +283,7 @@ module.exports = {
 	// These fields will also be hidden from the UI.
 	//
 	// This value is set to `false` by default.
-	lockNetwork: false,
+	lockNetwork: true,
 
 	// ## User management
 
