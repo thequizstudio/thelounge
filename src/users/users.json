@@ -1,0 +1,17 @@
+[
+  {
+    "username": "admin",
+    "password": "$2b$10$uWJ7WFiVxM8x8z1BPSvZhe.q3WgRIQX8dZ3rO5lq9p2qfXbGkqS1y",
+    "admin": true,
+    "networks": [
+      {
+        "name": "Libera Chat",
+        "host": "irc.libera.chat",
+        "port": 6697,
+        "tls": true,
+        "channels": ["#mychatroom"]
+      }
+    ],
+    "settings": {}
+  }
+]
