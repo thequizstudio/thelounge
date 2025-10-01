@@ -233,27 +233,6 @@
 					/>
 				</div>
 			</template>
-			<div class="connect-row">
-				<label for="connect:realname">Real name</label>
-				<input
-					id="connect:realname"
-					v-model.trim="defaults.realname"
-					class="input"
-					name="realname"
-					maxlength="300"
-				/>
-			</div>
-			<div class="connect-row">
-				<label for="connect:leaveMessage">Leave message</label>
-				<input
-					id="connect:leaveMessage"
-					v-model.trim="defaults.leaveMessage"
-					autocomplete="off"
-					class="input"
-					name="leaveMessage"
-					placeholder="The Lounge - https://thelounge.chat"
-				/>
-			</div>
 			<template v-if="defaults.uuid && !store.state.serverConfiguration?.public">
 				<div class="connect-row">
 					<label for="connect:commands">
